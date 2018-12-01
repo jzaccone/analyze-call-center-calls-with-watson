@@ -126,21 +126,24 @@ To execute these notebooks:
    ==> This would associate an Apache Spark service with your project which we need later on since we'll use SparkML machine learning code in the notebook.
 4. In your project, under the **Assets** tab, click on New Notebook.
 5. Provide a name for the notebook, and click on the **From URL** tab and provide the URL link for the notebook:
-https://github.com/mamoonraja/call-center-think18/blob/master/notebooks/Step1-speech-to-text.ipynb
+https://github.com/jzaccone/analyze-call-center-calls-with-watson/blob/master/notebooks/Step1-speech-to-text.ipynb
 6. Click **Create Notebook**
 This would load the notebook in Watson Studio
-7. Execute the steps of the notebook. Make sure the steps of each notebook are run to completion before proceeding to the sub-sequent notebooks.
+7. Execute the steps of the notebook, carefully reading through where input is required by you such as credentials to the different Watson Services. Make sure the steps of each notebook are run to completion before proceeding to the sub-sequent notebooks.
 8. Repeat steps 4-7 for the the notebooks corresponding to steps 2, 3, and 4:
 
-* Step2: https://github.com/mamoonraja/call-center-think18/blob/master/notebooks/Step2-natural-language-understanding.ipynb
+* Step2: 
+https://github.com/jzaccone/analyze-call-center-calls-with-watson/blob/master/notebooks/Step2-natural-language-understanding.ipynb
 
-* Step3: https://github.com/mamoonraja/call-center-think18/blob/master/notebooks/Step3-natural-language-classifier.ipynb
+* Step3: 
+https://github.com/jzaccone/analyze-call-center-calls-with-watson/blob/master/notebooks/Step3-natural-language-classifier.ipynb
 
-* Step4: https://github.com/mamoonraja/call-center-think18/blob/master/notebooks/Step4-tone-analysis.ipynb
+* Step4: 
+https://github.com/jzaccone/analyze-call-center-calls-with-watson/blob/master/notebooks/Step4-tone-analysis.ipynb
 
 9. In your project, under  **Assets** tab, click on New Notebook.
 10. Provide a name for the notebook, and click on the **From URL** tab and provide the URL link for the notebook:
-https://github.com/mamoonraja/call-center-think18/blob/master/notebooks/Step5-call-center-analytics.ipynb
+https://github.com/jzaccone/analyze-call-center-calls-with-watson/blob/master/notebooks/Step5-call-center-analytics.ipynb
 11. For the runtime, select the Apache Spark service instance you had associated with your project.
 7. Click **Create Notebook**
 This would load the notebook in Watson Studio.
